@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Una fuente limpia y moderna similar a la de la imagen */
+    font-family: 'Arial', sans-serif;
+}
+
+/* --- Estilos del Header --- */
+.main-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    /* Espacio arriba y abajo */
+    border-bottom: 1px solid #f2f2f2;
+    /* Línea sutil debajo, opcional */
+}
+
+/* Contenedor principal para centrar el contenido y dar márgenes laterales */
+.header-container {
+    max-width: 1200px;
+    /* Ancho máximo para que no se estire demasiado en pantallas gigantes */
+    margin: 0 auto;
+    /* Centra el contenedor */
+    padding: 0 20px;
+    /* Margen interior izquierdo y derecho */
+
+    /* MAGIA DE FLEXBOX */
+    display: flex;
+    justify-content: space-between;
+    /* Separa el logo a la izq y el menú a la der */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+}
+
+/* --- Estilos del Logo --- */
+.logo img {
+    height: 45px;
+    /* Ajusta esta altura para que el logo quede proporcionado */
+    display: block;
+}
+
+/* --- Estilos de la Navegación --- */
+.main-nav ul {
+    list-style: none;
+    /* Quita los puntos típicos de las listas */
+    display: flex;
+    /* Pone los enlaces uno al lado del otro */
+    gap: 35px;
+    /* Controla el espacio exacto entre cada palabra */
+}
+
+.main-nav a {
+    text-decoration: none;
+    /* Quita el subrayado de los enlaces */
+    color: #1c1c1c;
+    /* Color gris oscuro/negro similar a la imagen */
+    font-size: 16px;
+    font-weight: 600;
+    /* Hace la letra un poco más gruesa */
+    transition: color 0.3s ease;
+    /* Transición suave para el cambio de color */
+}
+
+/* Efecto al pasar el ratón y para la página actual */
+.main-nav a:hover,
+.main-nav a.active {
+    color: #7fad39;
+    /* El color verde característico de la imagen */
+}
