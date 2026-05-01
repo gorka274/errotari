@@ -1,0 +1,182 @@
+/* --- Sección Nuevos Socios --- */
+.partners-section {
+    padding: 60px 0;
+}
+
+.form-intro {
+    margin-bottom: 40px;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Contenedor del formulario con el borde sutil de la imagen */
+.billing-form-container {
+    max-width: 800px;
+    /* Evita que se estire más de 800 píxeles */
+    margin: 0 auto;
+    /* Lo centra horizontalmente en la página */
+    border: 1px solid #ebebeb;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.modern-form {
+    width: 100%;
+}
+
+/* Estructura de cada fila (Etiqueta + Input) */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* Las etiquetas de la izquierda */
+.form-row label {
+    width: 25%;
+    /* La etiqueta ocupa un cuarto del ancho */
+    font-size: 15px;
+    font-weight: bold;
+    color: #1c1c1c;
+}
+
+/* Asterisco verde */
+.req {
+    color: #7fad39;
+}
+
+/* El contenedor del input a la derecha */
+.input-wrapper {
+    width: 75%;
+    /* El input ocupa el resto del espacio */
+}
+
+/* Estilo de los campos de texto (Gris claro sin borde) */
+.modern-form input[type="text"],
+.modern-form input[type="email"],
+.modern-form input[type="tel"] {
+    width: 100%;
+    background-color: #f4f5f7;
+    /* Gris claro de la imagen */
+    border: none;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+/* Color del texto del placeholder */
+.modern-form input::placeholder {
+    color: #8fa0aa;
+    font-weight: 500;
+}
+
+/* Foco del input (cuando haces clic para escribir) */
+.modern-form input:focus {
+    background-color: #e9ecef;
+}
+
+/* --- Caso Especial: Nombre y Apellidos (Fila dividida) --- */
+.split-row {
+    justify-content: flex-start;
+}
+
+.split-row input {
+    flex: 1;
+    /* Los inputs se reparten el espacio disponible */
+}
+
+.split-row .label-right {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+/* --- Botones --- */
+.form-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    /* Alinea los botones a la derecha */
+    margin-top: 40px;
+}
+
+.btn-submit {
+    background-color: #7fad39;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #6a912e;
+}
+
+.btn-reset {
+    background-color: transparent;
+    color: #777;
+    border: 1px solid #ccc;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-reset:hover {
+    background-color: #f4f5f7;
+    color: #1c1c1c;
+}
+
+/* Centrar el título de la sección de socios */
+.partners-section .section-title {
+    text-align: center;
+}
+
+/* Centrar la línea verde decorativa debajo del título */
+.partners-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+    /* Este truco la centra de forma exacta */
+}
+
+/* Centrar el texto introductorio y darle el mismo ancho que al formulario */
+.partners-section .form-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+/* --- Adaptación para móviles (Responsive) --- */
+@media (max-width: 768px) {
+    .billing-form-container {
+        padding: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-row label {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .split-row {
+        flex-direction: column;
+    }
+
+    .split-row .label-right {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}

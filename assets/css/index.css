@@ -1,0 +1,237 @@
+/* --- Estilos Generales de Página --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Sección Bienvenida --- */
+.welcome-section {
+    background-color: #f3f6fa;
+    /* Un azul/gris muy suave */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 38px;
+    color: #1c1c1c;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #7fad39;
+    /* Verde Errotari */
+    font-weight: 600;
+}
+
+
+
+
+
+/* --- Sección Historia --- */
+.history-section {
+    padding: 60px 0;
+}
+
+.history-grid {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.history-text {
+    flex: 2;
+    /* El texto ocupa más espacio */
+}
+
+.section-title {
+    font-size: 28px;
+    color: #1c1c1c;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Línea decorativa verde debajo del título */
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #7fad39;
+}
+
+.history-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* --- Columna de Imagen --- */
+.history-image {
+    flex: 1;
+    /* La imagen ocupa menos espacio */
+}
+
+.image-wrapper {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.image-wrapper span {
+    font-size: 13px;
+    color: #888;
+}
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+    .history-grid {
+        flex-direction: column;
+    }
+
+    .history-image {
+        order: -1;
+        /* En el móvil, la imagen sale arriba */
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* --- Sección Objetivos --- */
+.objectives-section {
+    background-color: #f9f9f9;
+    /* Fondo sutil para diferenciarla de la historia */
+    padding: 60px 0;
+}
+
+/* Estilo de la lista de objetivos */
+.objectives-list {
+    list-style: none;
+    /* Quitamos los puntos por defecto */
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.objectives-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Punto verde personalizado para cada elemento de la lista */
+.objectives-list li::before {
+    content: '•';
+    color: #7fad39;
+    /* Verde Errotari */
+    position: absolute;
+    left: 0;
+    top: -5px;
+    font-size: 24px;
+}
+
+/* --- Galería de Objetivos (Reemplazo de la tabla) --- */
+.objectives-gallery {
+    display: flex;
+    gap: 30px;
+    /* Espacio entre las imágenes */
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    /* Transición para el hover */
+}
+
+/* Efecto al pasar el ratón por encima de las fotos */
+.gallery-item img:hover {
+    transform: scale(1.03);
+    /* Se hace un poquito más grande */
+}
+
+.image-caption {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+    /* Letra cursiva para el pie de foto */
+}
+
+/* --- Responsive para la galería --- */
+@media (max-width: 768px) {
+    .objectives-gallery {
+        flex-direction: column;
+        /* En móviles, una foto debajo de la otra */
+        align-items: center;
+    }
+}
+
+
+
+
+
+/* --- Sección Localización --- */
+.location-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    /* Fondo blanco para alternar con el gris de los objetivos */
+}
+
+.map-container {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Esto obliga al mapa a respetar los bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    /* Altura del mapa */
+    display: block;
+    border: none;
+    /* Quitamos el borde negro que traen los iframes por defecto */
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 300px;
+        /* Un poco más bajito en móviles para que no ocupe toda la pantalla */
+    }
+}

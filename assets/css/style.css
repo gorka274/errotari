@@ -70,3 +70,118 @@ body {
     color: #7fad39;
     /* El color verde característico de la imagen */
 }
+
+
+
+
+
+/* --- Estilos del Footer --- */
+.main-footer {
+    background-color: #f9f9f9;
+    /* Un gris muy claro para diferenciarlo del contenido */
+    border-top: 1px solid #ebebeb;
+    padding: 40px 0;
+    /* Espaciado generoso arriba y abajo */
+    margin-top: 50px;
+    /* Separa el footer del contenido de la página */
+    color: #444444;
+}
+
+.footer-container {
+    max-width: 1200px;
+    /* El mismo ancho que el header */
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    /* Separa las tres columnas */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    flex-wrap: wrap;
+    /* Si la pantalla es pequeña, los elementos bajan a la siguiente línea */
+    gap: 20px;
+}
+
+/* --- Columna de Contacto --- */
+.footer-contact h4 {
+    color: #1c1c1c;
+    /* Color oscuro del header */
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+
+.footer-contact a {
+    color: #7fad39;
+    /* El verde característico */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #1c1c1c;
+    /* Cambia a gris oscuro al pasar el ratón */
+}
+
+/* --- Columna de Idioma (Botones) --- */
+.footer-lang {
+    text-align: center;
+}
+
+.lang-switch {
+    display: inline-flex;
+    border: 2px solid #7fad39;
+    /* Borde verde */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    overflow: hidden;
+    /* Evita que el fondo de los botones se salga del borde */
+}
+
+.lang-btn {
+    background-color: transparent;
+    color: #1c1c1c;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Estado activo y hover del botón de idioma */
+.lang-btn.active,
+.lang-btn:hover {
+    background-color: #7fad39;
+    color: #ffffff;
+}
+
+/* --- Columna de Copyright --- */
+.footer-copy {
+    text-align: right;
+    /* Alineamos el texto a la derecha */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-copy strong {
+    color: #1c1c1c;
+}
+
+/* --- Adaptación para móviles (Responsive) --- */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+}
