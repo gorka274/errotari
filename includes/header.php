@@ -29,8 +29,32 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
             <nav class="main-nav">
                 <ul>
                     <li><a href="<?php echo BASE_URL; ?>/index.php" class="active">Home</a></li>
-                    <li><a href="<?php echo BASE_URL; ?>/blog.php">Blog</a></li>
-                    <li><a href="<?php echo BASE_URL; ?>/micologia.php">Micología</a></li>
+
+                    <li class="has-submenu">
+                        <a href="<?php echo BASE_URL; ?>/blog/principal.php">Blog</a>
+                        <ul class="submenu">
+                            <li><a href="<?php echo BASE_URL; ?>/blog/programaAnual.php">Programa Anual</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/blog/programaFiestas.php">Programa Fiestas</a></li>
+
+                            <li class="has-submenu">
+                                <a href="#">Concurso Fotográfico</a>
+                                <ul class="submenu nested-submenu">
+                                    <li><a href="<?php echo BASE_URL; ?>/blog/concursoFotografico/2003.php">2003</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu">
+                        <a href="<?php echo BASE_URL; ?>/micologia/iniciacion.php">Micología</a>
+                        <ul class="submenu">
+                            <li><a href="<?php echo BASE_URL; ?>/micologia/galeriaFotografica.php">Galería
+                                    Fotográfica</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/micologia/especies.php">Especies</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="<?php echo BASE_URL; ?>/revista.php">Revista</a></li>
                     <li><a href="<?php echo BASE_URL; ?>/contacto.php">Contacto</a></li>
                 </ul>

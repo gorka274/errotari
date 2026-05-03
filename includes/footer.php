@@ -17,7 +17,7 @@
         </div>
 
         <div class="footer-section footer-copy">
-            <p>&copy; Copyright 2003 - 2026</p>
+            <p>&copy; Copyright 2003 - <?php echo date('Y'); ?></p> <!-- date('Y') me da el año actual -->
             <p><strong>Sociedad Micológica Errotari</strong></p>
         </div>
 

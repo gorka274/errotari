@@ -3,7 +3,7 @@ include __DIR__ . "/../includes/header.php";
 ?>
 
 <main style="min-height: 400px; padding: 40px 20px; text-align: center;">
-    <h1>Contenido variadas</h1>
+    <h1>Programa Anual</h1>
     <p>En esta sección encontrarás información variada sobre la Sociedad Micológica Errotari.</p>
 </main>
 

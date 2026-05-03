@@ -72,6 +72,75 @@ body {
 }
 
 
+/* --- Estilos para los Dropdowns (Submenús) --- */
+
+/* Posición relativa al padre para que el submenú sepa dónde anclarse */
+li.has-submenu {
+    position: relative;
+}
+
+/* Ocultar los submenús por defecto y darles estilo de "caja emergente" */
+ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Se coloca justo debajo del enlace principal */
+    left: 0;
+    background-color: #ffffff;
+    min-width: 220px;
+    /* Ancho de la caja del submenú */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    z-index: 1000;
+    /* Asegura que flote por encima de todo el contenido */
+    list-style: none;
+}
+
+/* Mostrar el submenú cuando el ratón pasa sobre el elemento padre */
+li.has-submenu:hover>ul.submenu {
+    display: block;
+}
+
+/* Estilos para los enlaces dentro del submenú */
+ul.submenu li {
+    display: block;
+    border-bottom: 1px solid #f0f0f0;
+    /* Línea separadora suave */
+}
+
+ul.submenu li:last-child {
+    border-bottom: none;
+    /* Quitamos la línea al último elemento */
+}
+
+ul.submenu li a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul.submenu li a:hover {
+    background-color: #f9f9f9;
+    color: #7fad39;
+    /* Se pone verde Errotari al pasar el ratón */
+}
+
+/* --- Estilos para el Submenú Anidado (Nivel 2) --- */
+
+/* En lugar de abrirse hacia abajo, se abre hacia la derecha */
+ul.submenu.nested-submenu {
+    top: 0;
+    /* A la misma altura que su elemento padre */
+    left: 100%;
+    /* Empieza justo donde termina la caja anterior */
+    margin-left: 1px;
+}
+
 
 
 

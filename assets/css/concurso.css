@@ -1,0 +1,108 @@
+/* --- Sección Concurso Fotográfico --- */
+.contest-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contest-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centramos la línea verde */
+}
+
+.section-subtitle {
+    margin: 0 auto 40px auto;
+    color: #555;
+    font-size: 16px;
+    max-width: 700px;
+}
+
+/* Contenedor principal de la galería */
+.gallery-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Imagen Principal */
+.main-image-display {
+    margin-bottom: 30px;
+}
+
+.main-image-display img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    /* Evita que fotos verticales ocupen 3 pantallas */
+    object-fit: contain;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out;
+    /* Transición suave al cambiar de foto */
+}
+
+.image-author {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+/* Cuadrícula de Miniaturas */
+.thumbnails-grid {
+    display: grid;
+    /* Crea columnas automáticas que no bajen de 100px */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+
+.thumb-item {
+    cursor: pointer;
+    opacity: 0.6;
+    /* Un poco apagadas por defecto */
+    transition: all 0.3s ease;
+}
+
+.thumb-item:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+    /* Se levantan un poquito al pasar el ratón */
+}
+
+/* Estilo para la miniatura seleccionada (activa) */
+.thumb-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.thumb-item img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 3px solid transparent;
+    /* Borde invisible para que no baile el diseño al activarse */
+    transition: border-color 0.3s;
+}
+
+.thumb-item.active img {
+    border-color: #7fad39;
+    /* Borde verde Errotari para la seleccionada */
+}
+
+.thumb-item span {
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+    color: #777;
+    font-weight: 600;
+}
+
+.thumb-item.active span {
+    color: #7fad39;
+}
