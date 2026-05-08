@@ -1,0 +1,346 @@
+/* --- Sección Iniciación: Conceptos --- */
+.concept-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.concept-section .section-title,
+.feeding-section .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.concept-section .section-title::after,
+.feeding-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.concept-layout {
+    display: block;
+    max-width: 850px;
+    /* Lo reducimos de 1100 a 850px para que las líneas no sean eternas y cansen la vista */
+    margin: 0 auto;
+    /* Esto centra el bloque entero en la pantalla */
+    text-align: center;
+    /* Esto centra el texto por dentro */
+}
+
+.concept-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.concept-text p:last-child {
+    margin-bottom: 0;
+}
+
+.concept-image {
+    background: #f4f7f2;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px dashed #7fad39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #7fad39;
+    min-height: 300px;
+    /* Altura mínima para que no quede vacía si no hay foto */
+}
+
+
+
+/* --- Sección Tipos de Alimentación --- */
+.feeding-section {
+    padding: 70px 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ebebeb;
+}
+
+.feeding-section .intro-content.text-center {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Cuadrícula de tarjetas */
+.feeding-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Diseño estilizado de la tarjeta */
+.feeding-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    /* Bordes más redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    /* Sombra más suave y moderna */
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Pequeña línea verde arriba sin afectar el borde completo */
+.feeding-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #7fad39;
+}
+
+.feeding-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.feeding-card h3 {
+    color: #1c1c1c;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.feeding-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* Caja de ejemplos mejorada */
+.feeding-card .examples {
+    background: #f4f7f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: auto;
+    /* Empuja los ejemplos al fondo para igualar tarjetas */
+}
+
+.feeding-card .examples strong {
+    display: block;
+    margin-bottom: 12px;
+    color: #1c1c1c;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.feeding-card .examples ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feeding-card .examples ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.feeding-card .examples ul li:last-child {
+    margin-bottom: 0;
+}
+
+.feeding-card .examples ul li::before {
+    color: #7fad39;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+    .concept-layout {
+        grid-template-columns: 1fr;
+        /* Pone la imagen debajo del texto en móviles */
+        gap: 30px;
+    }
+
+    .feeding-card {
+        padding: 30px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- Sección Guía de Recolección (Cuándo, Dónde, Normas) --- */
+.collection-guide-section {
+    padding: 70px 0;
+    background-color: #ffffff;
+}
+
+/* Grid para Cuándo y Dónde */
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    /* Un poco más estrecho para centrar bien la lectura */
+    margin: 0 auto 50px auto;
+}
+
+.guide-card {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+}
+
+.guide-card .card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.guide-card .subsection-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #1c1c1c;
+    border: none;
+    padding: 0;
+}
+
+.guide-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.simple-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.simple-list li {
+    font-size: 15px;
+    color: #444;
+    padding: 6px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.simple-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- Caja de Normas Cívicas --- */
+.rules-box {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #f4f7f2;
+    padding: 50px;
+    border-radius: 12px;
+    border-left: 6px solid #7fad39;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+}
+
+.rules-box .section-title {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.rules-box .section-title::after {
+    left: 0;
+    transform: none;
+}
+
+.rules-intro {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    max-width: 800px;
+}
+
+/* Ponemos la lista de normas en dos columnas para aprovechar el espacio */
+.rules-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.rules-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rules-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.rules-list li::before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 16px;
+}
+
+.rules-list li strong {
+    color: #1c1c1c;
+    display: block;
+    /* Pone el título de la norma en su propia línea */
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+    .rules-box {
+        padding: 30px 20px;
+    }
+
+    .rules-columns {
+        grid-template-columns: 1fr;
+        /* Una sola columna en móviles */
+        gap: 0;
+    }
+
+    .rules-box .section-title,
+    .rules-box .section-title::after {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rules-box .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
