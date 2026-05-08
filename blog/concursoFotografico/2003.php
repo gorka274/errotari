@@ -30,26 +30,26 @@ include __DIR__ . "/../../includes/header.php";
                     </div>
                     <div class="thumb-item" data-img="22003.jpg"
                         data-author="Mario Maguregui Arana - Zornotza (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/t22003.jpg" alt="2º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/22003.jpg" alt="2º Premio">
                         <span>2º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="32003.jpg"
                         data-author="Carlos Sánchez Carcavilla - San Juan de Mozarrifar (Zaragoza)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/t32003.jpg" alt="3º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/32003.jpg" alt="3º Premio">
                         <span>3º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="42003.jpg"
                         data-author="José Manuel Ruiz Fernández - Bilbao (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/t42003.jpg" alt="4º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/42003.jpg" alt="4º Premio">
                         <span>4º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="52003.jpg" data-author="Asier Ayala - Barakaldo (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/t52003.jpg" alt="5º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/52003.jpg" alt="5º Premio">
                         <span>5º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="l2003.jpg"
                         data-author="Néstor Zubizarreta Hernández - Durango (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/tl2003.jpg" alt="Mejor local">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/l2003.jpg" alt="Mejor local">
                         <span>Mejor local</span>
                     </div>
                 </div>

@@ -1,0 +1,273 @@
+/* --- Sección Introducción / Texto Largo --- */
+.intro-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.intro-section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centra la línea verde del título */
+}
+
+/* Contenedor limitador para que el texto sea fácil de leer */
+.intro-content {
+    max-width: 850px;
+    margin: 0 auto;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.8;
+    /* Interlineado amplio para respirar */
+}
+
+.text-block {
+    margin-bottom: 45px;
+}
+
+.text-block p {
+    margin-bottom: 15px;
+}
+
+/* Títulos de cada apartado */
+.subsection-title {
+    color: #1c1c1c;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #f0f0f0;
+    display: inline-block;
+}
+
+/* --- Caja de Zona de Estudio (Texto + Imagen) --- */
+.image-block-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+}
+
+.image-block-right .text-content {
+    flex: 1;
+    /* El texto ocupa todo el espacio sobrante */
+}
+
+.image-block-right .image-content {
+    width: 250px;
+    /* Ancho fijo para el mapa */
+    flex-shrink: 0;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-image:hover {
+    transform: scale(1.03);
+    /* Ligero efecto zoom al pasar el ratón */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Cajas divididas (Fotos y Gráficas) --- */
+.split-info {
+    display: flex;
+    gap: 30px;
+}
+
+.split-info .info-box {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 3px solid #ebebeb;
+}
+
+/* --- Cita / Dedicatoria --- */
+.quote-block {
+    margin-top: 60px;
+    padding: 35px 40px;
+    background-color: #f4f7f2;
+    /* Un tono muy suave derivado del verde Errotari */
+    border-left: 5px solid #7fad39;
+    border-radius: 0 8px 8px 0;
+}
+
+.quote-block blockquote {
+    margin: 0;
+}
+
+.quote-block p {
+    font-size: 19px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.quote-block footer {
+    text-align: right;
+    font-size: 15px;
+    color: #666;
+}
+
+.quote-block footer strong {
+    color: #1c1c1c;
+}
+
+/* --- Responsive para Móviles y Tablets --- */
+@media (max-width: 768px) {
+    .image-block-right {
+        flex-direction: column;
+        /* Apila el texto y la imagen */
+        padding: 20px;
+    }
+
+    .image-block-right .image-content {
+        width: 100%;
+        max-width: 300px;
+        /* Evita que el mapa sea gigante en el móvil */
+        margin: 0 auto;
+    }
+
+    .split-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .quote-block {
+        padding: 25px 20px;
+    }
+
+    .quote-block p {
+        font-size: 17px;
+    }
+}
+
+
+
+
+/* --- Sección Hábitats --- */
+.habitats-section {
+    padding: 60px 0;
+    background-color: #f4f7f2;
+    /* Fondo suave para diferenciar de otras secciones */
+}
+
+.habitats-section .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.habitats-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.habitats-section .intro-content.text-center {
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 800px;
+}
+
+/* --- Cuadrícula de Tarjetas --- */
+.habitats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+
+    /* ¡Añadimos estas dos líneas para limitar el ancho y centrarlo! */
+    max-width: 1100px;
+    /* Misma anchura máxima que le dimos a la galería de fotos */
+    margin: 0 auto;
+    /* Esto centra todo el bloque en medio de la pantalla */
+}
+
+/* --- Diseño de cada Tarjeta --- */
+.habitat-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #7fad39;
+    /* Línea decorativa superior */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habitat-card:hover {
+    transform: translateY(-2.5px);
+    /* Se eleva un poco al pasar el ratón */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.card-header .icon {
+    font-size: 28px;
+}
+
+.habitat-card .subsection-title {
+    margin: 0;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    color: #1c1c1c;
+}
+
+/* --- Listas de Especies --- */
+.species-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.species-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ebebeb;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.species-list li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para los nombres científicos en latín */
+.species-list li em {
+    font-weight: 600;
+    color: #2c2c2c;
+}
+
+/* Estilo para los nombres comunes */
+.species-list li span {
+    color: #777;
+    font-size: 14px;
+    display: block;
+    /* Pone el nombre común debajo del científico en pantallas pequeñas */
+}
+
+/* Adaptación para pantallas un poco más grandes */
+@media (min-width: 480px) {
+    .species-list li span {
+        display: inline;
+        /* Vuelve a poner el nombre común al lado */
+        margin-left: 5px;
+    }
+}
