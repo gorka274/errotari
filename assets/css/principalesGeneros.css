@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Encabezado de página */
+.page-header {
+    text-align: center;
+    padding: 50px 0 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+}
+
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto 15px auto;
+    line-height: 1.6;
+}
+
+.page-subtitle {
+    font-size: 1rem;
+    color: #7fad39;
+    font-weight: 600;
+}
+
+/* Lista de géneros */
+.generos-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.genero-item {
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 25px 30px;
+    transition: all 0.3s ease;
+}
+
+.genero-item:hover {
+    border-color: #7fad39;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.genero-titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #7fad39;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.genero-item p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.genero-item strong {
+    color: #1c1c1c;
+}
+
+.genero-item em {
+    font-style: italic;
+    color: #666;
+}
+
+.genero-ejemplos {
+    background-color: #f9f9f9;
+    border-left: 3px solid #7fad39;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+.genero-ejemplos p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.genero-ejemplos p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .page-description {
+        font-size: 1rem;
+    }
+
+    .genero-item {
+        padding: 18px 20px;
+    }
+
+    .genero-titulo {
+        font-size: 1.3rem;
+    }
+
+    .genero-item p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .page-header {
+        padding: 30px 0 20px 0;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .genero-item {
+        padding: 15px;
+    }
+
+    .genero-titulo {
+        font-size: 1.2rem;
+    }
+}

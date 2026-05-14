@@ -1,0 +1,361 @@
+/* Reset y variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-green: #7fad39;
+    --primary-dark: #5a7d28;
+    --secondary-green: #e8f5e9;
+    --dark-gray: #1c1c1c;
+    --medium-gray: #555;
+    --light-gray: #f5f5f5;
+    --white: #ffffff;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-hover: 0 12px 32px rgba(0, 0, 0, 0.15);
+    --border-radius: 16px;
+    --border-radius-sm: 12px;
+}
+
+body {
+    font-family: 'Inter', 'Arial', sans-serif;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: linear-gradient(135deg, #1a3a1a 0%, #2d5a2d 50%, #3d7a3d 100%);
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 100%);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.hero-content {
+    text-align: center;
+    color: var(--white);
+    padding: 60px 0;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 0.95;
+    margin-bottom: 24px;
+}
+
+.hero-decoration {
+    width: 80px;
+    height: 3px;
+    background: var(--primary-green);
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 60px 0 40px 0;
+    background: var(--white);
+}
+
+.intro-card {
+    background: linear-gradient(135deg, var(--secondary-green) 0%, #f0f7e8 100%);
+    border-radius: var(--border-radius);
+    padding: 40px 48px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(127, 173, 57, 0.2);
+}
+
+.intro-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #2c3e2c;
+}
+
+.intro-card p:first-child {
+    margin-bottom: 16px;
+}
+
+.intro-highlight {
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+
+/* Section Header */
+.section-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-tag {
+    display: inline-block;
+    background: var(--primary-green);
+    color: var(--white);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--dark-gray);
+    margin-bottom: 16px;
+}
+
+.section-divider {
+    width: 60px;
+    height: 3px;
+    background: var(--primary-green);
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+/* Olores Grid */
+.olores-section {
+    padding: 40px 0 60px 0;
+    background: var(--light-gray);
+}
+
+.olores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 28px;
+}
+
+.olor-card {
+    background: var(--white);
+    border-radius: var(--border-radius-sm);
+    padding: 24px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #eef2ee;
+    position: relative;
+    overflow: hidden;
+}
+
+.olor-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--primary-green);
+    transition: width 0.3s ease;
+}
+
+.olor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+}
+
+.olor-card:hover::before {
+    width: 6px;
+}
+
+.olor-icon {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.olor-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 12px;
+    border-left: 3px solid var(--primary-green);
+    padding-left: 12px;
+}
+
+.olor-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--medium-gray);
+}
+
+.olor-card em {
+    font-style: italic;
+    color: #2c5e2c;
+    font-weight: 500;
+}
+
+/* Sabor Section */
+.sabor-section {
+    padding: 60px 0 80px 0;
+    background: linear-gradient(135deg, #1a2a1a 0%, #2a3d2a 100%);
+}
+
+.sabor-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: var(--border-radius);
+    padding: 48px;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sabor-content {
+    flex: 2;
+}
+
+.white-tag {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.sabor-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.sabor-content p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 28px;
+}
+
+.sabor-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sabor-tag {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.sabor-tag:hover {
+    background: var(--primary-green);
+    transform: scale(1.05);
+}
+
+.sabor-icon {
+    flex: 1;
+    text-align: center;
+    font-size: 6rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .intro-card {
+        padding: 28px 20px;
+    }
+    
+    .intro-card p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .olores-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .sabor-wrapper {
+        flex-direction: column;
+        text-align: center;
+        padding: 32px 24px;
+    }
+    
+    .sabor-title {
+        font-size: 1.5rem;
+    }
+    
+    .sabor-tags {
+        justify-content: center;
+    }
+    
+    .sabor-icon {
+        font-size: 4rem;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .olor-card {
+        padding: 18px;
+    }
+}
