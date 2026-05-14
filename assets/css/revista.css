@@ -1,0 +1,200 @@
+/* --- Sección Revista --- */
+.magazine-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+/* Layout en dos columnas */
+.magazine-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* Izquierda fija a 300px, Derecha ocupa el resto */
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Columna Izquierda (Portada e Info) --- */
+.magazine-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    /* Sombra elegante para simular volumen */
+    border: 1px solid #eaeaea;
+}
+
+.purchase-info {
+    background: #f4f7f2;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #7fad39;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    position: relative;
+}
+
+.purchase-info .info-icon {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.purchase-info strong {
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+/* --- Columna Derecha (Sumario) --- */
+.magazine-toc {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f0f0;
+}
+
+.toc-title {
+    font-size: 26px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #7fad39;
+}
+
+/* Numeración automática del Sumario con CSS Counters */
+.main-toc {
+    counter-reset: seccion;
+    /* Inicia el contador principal */
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.main-toc>li {
+    counter-increment: seccion;
+    /* Suma 1 por cada sección */
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #1c1c1c;
+}
+
+.main-toc>li::before {
+    content: counter(seccion) " - ";
+    color: #7fad39;
+    font-weight: bold;
+}
+
+/* Sub-listas (1.1, 1.2, etc.) */
+.sub-toc {
+    counter-reset: subseccion;
+    /* Inicia el contador secundario */
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.sub-toc>li {
+    counter-increment: subseccion;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    position: relative;
+}
+
+.sub-toc>li::before {
+    content: counter(seccion) "." counter(subseccion) " ";
+    color: #999;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Autores */
+.author {
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+    white-space: nowrap;
+    /* Evita que el nombre del autor se rompa en dos líneas */
+}
+
+/* Cabecera del Sumario con el botón */
+.toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #7fad39;
+}
+
+/* Redefinimos el título para que no tenga su propio margen ni borde inferior ahora que lo tiene el contenedor */
+.toc-title {
+    font-size: 26px;
+    color: #1c1c1c;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* Estilos del botón de PDF */
+.btn-descarga {
+    display: inline-flex;
+    align-items: center;
+    background-color: #d32f2f;
+    /* Un rojo oscuro estilo PDF */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(211, 47, 47, 0.2);
+}
+
+.btn-descarga:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+}
+
+.btn-descarga:active {
+    transform: translateY(0);
+}
+
+
+/* --- Adaptación a móviles --- */
+@media (max-width: 850px) {
+    .magazine-layout {
+        grid-template-columns: 1fr;
+        /* Pasa a 1 sola columna */
+        gap: 30px;
+    }
+
+    .magazine-sidebar {
+        max-width: 400px;
+        margin: 0 auto;
+        /* Centra la portada en el móvil */
+    }
+
+    .magazine-toc {
+        padding: 30px 20px;
+    }
+}
+
+/* Adaptación a móviles para el botón */
+@media (max-width: 600px) {
+    .toc-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}

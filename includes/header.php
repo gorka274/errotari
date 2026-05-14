@@ -39,7 +39,8 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
                             <li class="has-submenu">
                                 <a href="#">Concurso Fotográfico</a>
                                 <ul class="submenu nested-submenu">
-                                    <li><a href="<?php echo BASE_URL; ?>/blog/concursoFotografico/2003.php">2003</a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>/blog/concursoFotografico/2003.php">2003</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -47,26 +48,31 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
 
                     <li class="has-submenu">
                         <a href="javascript:void(0);">Micología</a>
-
-
                         <ul class="submenu">
-                            <!--Submenú-->
                             <li class="has-submenu">
                                 <a href="javascript:void(0);">Iniciación</a>
                                 <ul class="submenu nested-submenu">
-                                    <li><a href="<?php echo BASE_URL; ?>/micologia/setasHongos.php">Setas y hongos</a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>/micologia/caracteresOrganolepticos.php">Caracteres Organolépticos</a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>/micologia/principalesGeneros.php">Principales Géneros</a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>/micologia/setasHongos.php">Setas y hongos</a>
+                                    </li>
+                                    <li><a href="<?php echo BASE_URL; ?>/micologia/caracteresOrganolepticos.php">Caracteres
+                                            Organolépticos</a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>/micologia/principalesGeneros.php">Principales
+                                            Géneros</a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?php echo BASE_URL; ?>/micologia/galeriaFotografica.php">Galería Fotográfica</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/micologia/galeriaFotografica.php">Galería
+                                    Fotográfica</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/micologia/especies.php">Especies</a></li>
                         </ul>
-
-
                     </li>
 
-                    <li><a href="<?php echo BASE_URL; ?>/revista.php">Revista</a></li>
+                    <li class="has-submenu">
+                        <a href="javascript:void(0);">Revista</a>
+                        <ul class="submenu">
+                            <li><a href="<?php echo BASE_URL; ?>/revista/revista1.php">Revista nº 1</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="<?php echo BASE_URL; ?>/contacto.php">Contacto</a></li>
                 </ul>
             </nav>

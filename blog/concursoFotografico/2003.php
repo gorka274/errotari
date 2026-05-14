@@ -18,38 +18,39 @@ include __DIR__ . "/../../includes/header.php";
             <div class="gallery-wrapper">
 
                 <div class="main-image-display">
-                    <img id="main-pict" src="<?php echo BASE_URL; ?>/assets/img/12003.jpg" alt="Fotografía Premiada">
+                    <img id="main-pict" src="<?php echo BASE_URL; ?>/assets/img/2003/12003.jpg"
+                        alt="Fotografía Premiada">
                     <div id="main-author" class="image-author">Javier Gómez Fernández - Priego (Córdoba)</div>
                 </div>
 
                 <div class="thumbnails-grid">
                     <div class="thumb-item active" data-img="12003.jpg"
                         data-author="Javier Gómez Fernández - Priego (Córdoba)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/12003.jpg" alt="1º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/12003.jpg" alt="1º Premio">
                         <span>1º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="22003.jpg"
                         data-author="Mario Maguregui Arana - Zornotza (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/22003.jpg" alt="2º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/22003.jpg" alt="2º Premio">
                         <span>2º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="32003.jpg"
                         data-author="Carlos Sánchez Carcavilla - San Juan de Mozarrifar (Zaragoza)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/32003.jpg" alt="3º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/32003.jpg" alt="3º Premio">
                         <span>3º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="42003.jpg"
                         data-author="José Manuel Ruiz Fernández - Bilbao (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/42003.jpg" alt="4º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/42003.jpg" alt="4º Premio">
                         <span>4º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="52003.jpg" data-author="Asier Ayala - Barakaldo (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/52003.jpg" alt="5º Premio">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/52003.jpg" alt="5º Premio">
                         <span>5º Premio</span>
                     </div>
                     <div class="thumb-item" data-img="l2003.jpg"
                         data-author="Néstor Zubizarreta Hernández - Durango (Bizkaia)">
-                        <img src="<?php echo BASE_URL; ?>/assets/img/l2003.jpg" alt="Mejor local">
+                        <img src="<?php echo BASE_URL; ?>/assets/img/2003/l2003.jpg" alt="Mejor local">
                         <span>Mejor local</span>
                     </div>
                 </div>
