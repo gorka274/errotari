@@ -1,0 +1,23 @@
+{
+    "titulo": "Actividades para el 2017",
+    "anio": "2017",
+    "contenido_bloques": [
+        {
+            "tipo": "parrafo",
+            "texto": "Durante los meses de julio y agosto no está previsto ningún cursillo. Sí está previsto que esté preparada o casi a punto el número 14 de la revista de micología Errotari."
+        },
+        {
+            "tipo": "seccion",
+            "titulo_seccion": "Octubre:",
+            "texto": "Los tendremos ocupado con los actos de San Fausto y las colaboraciones con otras micológicas para lo que también necesitaremos la colaboración de los socios que puedan y quieran.\n\nLa excursión de otoño, la celebraremos el día 21-10, os informaremos del lugar (probablemente Murguia) y de la hora de salida."
+        },
+        {
+            "tipo": "parrafo",
+            "texto": "Todos los socios/as que quieran participar en algún cursillo tienen que apuntarse los lunes en nuestra sede de Laubideta o en el teléfono 615711724 (Plácido) ó 615711725 (Uribe)."
+        },
+        {
+            "tipo": "parrafo",
+            "texto": "Del resto de actividades, excursiones etc., os informaremos cuando se celebren."
+        }
+    ]
+}
