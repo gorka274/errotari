@@ -1,56 +1,56 @@
 {
-    "titulo_pagina": "Programa de fiestas 2022",
-    "anio": "2022",
-    "imagen_cartel": "../assets/img/Cartel 2022.jpg",
-    "info_evento": {
-        "nombre_fiesta": "FIESTA MICOLÓGICA SAN FAUSTOS 2022",
-        "organizador": "Asociación Micológica Errotari",
-        "lugar": "Pabellón multiusos de Landako",
-        "fechas": "8 y 9 de octubre"
+  "titulo_pagina": "Programa de fiestas 2022",
+  "anio": "2022",
+  "imagen_cartel": "../imagenes/Cartel_2022.jpg",
+  "info_evento": {
+    "nombre_fiesta": "FIESTA MICOLÓGICA SAN FAUSTOS 2022",
+    "organizador": "Asociación Micológica Errotari",
+    "lugar": "Pabellón multiusos de Landako",
+    "fechas": "8 y 9 de octubre"
+  },
+  "actividades_previstas": [
+    "XXII EXPOSICIÓN MICOLÓGICA",
+    "XX CONCURSO FOTOGRÁFICO",
+    "XX CONCURSO DE CLASIFICACIÓN DE SETAS PARA NIÑOS Y JÓVENES",
+    "DEGUSTACIÓN MICOLÓGICA",
+    "EXPOSICIÓN DE PANELES MICOLÓGICOS"
+  ],
+  "cronograma": [
+    {
+      "fecha": "8 DE OCTUBRE",
+      "eventos": [
+        "A las 8 de la mañana nos reuniremos en Ezkurdi todos los aficionados que lo deseen, sean socios o no de Errotari, para salir a recoger setas, volviendo aproximadamente entre las 13:00 y las 14:00 al Pabellón multiusos de Landako, donde habrá un pequeño lunch y se dará un obsequio a quien entregue las setas recogidas.",
+        "Por la tarde se hará la clasificación de las setas y se prepararán los actos del día siguiente."
+      ]
     },
-    "actividades_previstas": [
-        "XXII EXPOSICIÓN MICOLÓGICA",
-        "XX CONCURSO FOTOGRÁFICO",
-        "XX CONCURSO DE CLASIFICACIÓN DE SETAS PARA NIÑOS Y JÓVENES",
-        "DEGUSTACIÓN MICOLÓGICA",
-        "EXPOSICIÓN DE PANELES MICOLÓGICOS"
-    ],
-    "cronograma": [
-        {
-            "fecha": "8 DE OCTUBRE",
-            "eventos": [
-                "A las 8 de la mañana nos reuniremos en Ezkurdi todos los aficionados que lo deseen, sean socios o no de Errotari, para salir a recoger setas, volviendo aproximadamente entre las 13:00 y las 14:00 al Pabellón multiusos de Landako, donde habrá un pequeño lunch y se dará un obsequio a quien entregue las setas recogidas.",
-                "Por la tarde se hará la clasificación de las setas y se prepararán los actos del día siguiente."
-            ]
-        },
-        {
-            "fecha": "9 DE OCTUBRE",
-            "eventos": [
-                "A las once de la mañana se abrirá la exposición de setas, estando permanentemente miembros de Errotari para aclarar las dudas de todo el que lo solicite.\nHabrá un regalo especial para el colaborador que entregue la mejor cesta de setas (se valorará limpieza, presentación y variedad de setas) a juicio de miembros cualificados de Errotari.",
-                "Durante la mañana habrá diversos juegos y entretenimientos micológicos para los más pequeños.",
-                "A las 12:00 comenzaremos el concurso de clasificación de setas para asistentes menores de 16 años. Los participantes deberán emparejar correctamente los nombres de 10 setas más o menos comunes. Intentaremos que haya regalos para todos los participantes.",
-                "A partir de las 12:00 se abrirá la taberna para la degustación de setas, donde se podrán consumir pintxos y bebidas a un módico precio.",
-                "A las 13:00 entregaremos los premios del concurso de fotografía micológica, concurso cuyas bases adjuntamos más adelante.",
-                "Todos estos actos finalizarán a las 14:30 horas aproximadamente dependiendo del público asistente."
-            ]
-        }
-    ],
-    "concurso_fotografia": {
-        "nombre_concurso": "XX CONCURSO DE FOTOGRAFÍA MICOLÓGICA ERROTARI",
-        "direccion_entrega": "ASOCIACIÓN MICOLÓGICA ERROTARI\nPLÁCIDO IGLESIAS\nSAN INAZIO AUZUNEA 2B, 4º PISO C\n48200 – DURANGO",
-        "telefonos_contacto": "ERROTARI – 615 711 724 / 615 711 725 / 946810287",
-        "bases": [
-            "1 - PARTICIPANTES: Podrán participar todos los que lo deseen sin limitación de edad ni de ningún otro tipo.",
-            "2 - TEMA: El motivo principal de las fotografías serán las setas.",
-            "3 - NÚMERO DE OBRAS: Cada autor podrá presentar un máximo de cuatro fotos, aunque sólo podrá ser premiada una foto por autor. No podrán presentarse fotos premiadas en otro concurso.",
-            "4 - CARACTERISTICAS DE LAS OBRAS: Las fotografías serán en color, de tamaño libre e irán colocadas sobre una cartulina blanca de tamaño mayor.",
-            "5 - IDENTIFICACIÓN: Se pondrá en el frente y en la parte baja de la cartulina el título de la fotografía y en la parte de atrás de la cartulina los datos del autor con su dirección y teléfono.",
-            "6 - PLAZO DE ENTREGA: La fecha límite de entrega será el 30 de septiembre y deberán entregarse en la sede de ERROTARI (Laubideta 6) o enviarse a la dirección oficial.",
-            "7 - PREMIOS: Los premios serán los siguientes:\n• Mejor fotografía:\nPrimer premio: 250 euros y txapela\nSegundo premio: 200 euros y un trofeo\nTercer premio: 100 euros y un trofeo\nCuarto premio: 75 euros\n• Mejor fotógrafo local (sin premio previo):\nPremio: 75 euros",
-            "8 - JURADO: Estará formado por dos miembros de la asociación y un fotógrafo y su fallo será inapelable.",
-            "9 - FALLO: Se hará público el mismo día de la exposición, 9 de octubre, a las 13:00 en el Multiusos de Landako.",
-            "10 - DERECHOS: Las obras premiadas quedarán en poder de Errotari reservándose los derechos de autor de las mismas. Las obras no premiadas podrán recogerse en la sede de la asociación o bien serán devueltas por esta si junto con la foto se adjunta un sobre franqueado con la dirección a la que se deben enviar.",
-            "11 - EL HECHO DE PARTICIPAR IMPLICA LA ACEPTACIÓN DE TODAS ESTAS BASES."
-        ]
+    {
+      "fecha": "9 DE OCTUBRE",
+      "eventos": [
+        "A las once de la mañana se abrirá la exposición de setas, estando permanentemente miembros de Errotari para aclarar las dudas de todo el que lo solicite.\nHabrá un regalo especial para el colaborador que entregue la mejor cesta de setas (se valorará limpieza, presentación y variedad de setas) a juicio de miembros cualificados de Errotari.",
+        "Durante la mañana habrá diversos juegos y entretenimientos micológicos para los más pequeños.",
+        "A las 12:00 comenzaremos el concurso de clasificación de setas para asistentes menores de 16 años. Los participantes deberán emparejar correctamente los nombres de 10 setas más o menos comunes. Intentaremos que haya regalos para todos los participantes.",
+        "A partir de las 12:00 se abrirá la taberna para la degustación de setas, donde se podrán consumir pintxos y bebidas a un módico precio.",
+        "A las 13:00 entregaremos los premios del concurso de fotografía micológica, concurso cuyas bases adjuntamos más adelante.",
+        "Todos estos actos finalizarán a las 14:30 horas aproximadamente dependiendo del público asistente."
+      ]
     }
+  ],
+  "concurso_fotografia": {
+    "nombre_concurso": "XX CONCURSO DE FOTOGRAFÍA MICOLÓGICA ERROTARI",
+    "direccion_entrega": "ASOCIACIÓN MICOLÓGICA ERROTARI\nPLÁCIDO IGLESIAS\nSAN INAZIO AUZUNEA 2B, 4º PISO C\n48200 – DURANGO",
+    "telefonos_contacto": "ERROTARI – 615 711 724 / 615 711 725 / 946810287",
+    "bases": [
+      "1 - PARTICIPANTES: Podrán participar todos los que lo deseen sin limitación de edad ni de ningún otro tipo.",
+      "2 - TEMA: El motivo principal de las fotografías serán las setas.",
+      "3 - NÚMERO DE OBRAS: Cada autor podrá presentar un máximo de cuatro fotos, aunque sólo podrá ser premiada una foto por autor. No podrán presentarse fotos premiadas en otro concurso.",
+      "4 - CARACTERISTICAS DE LAS OBRAS: Las fotografías serán en color, de tamaño libre e irán colocadas sobre una cartulina blanca de tamaño mayor.",
+      "5 - IDENTIFICACIÓN: Se pondrá en el frente y en la parte baja de la cartulina el título de la fotografía y en la parte de atrás de la cartulina los datos del autor con su dirección y teléfono.",
+      "6 - PLAZO DE ENTREGA: La fecha límite de entrega será el 30 de septiembre y deberán entregarse en la sede de ERROTARI (Laubideta 6) o enviarse a la dirección oficial.",
+      "7 - PREMIOS: Los premios serán los siguientes:\n• Mejor fotografía:\nPrimer premio: 250 euros y txapela\nSegundo premio: 200 euros y un trofeo\nTercer premio: 100 euros y un trofeo\nCuarto premio: 75 euros\n• Mejor fotógrafo local (sin premio previo):\nPremio: 75 euros",
+      "8 - JURADO: Estará formado por dos miembros de la asociación y un fotógrafo y su fallo será inapelable.",
+      "9 - FALLO: Se hará público el mismo día de la exposición, 9 de octubre, a las 13:00 en el Multiusos de Landako.",
+      "10 - DERECHOS: Las obras premiadas quedarán en poder de Errotari reservándose los derechos de autor de las mismas. Las obras no premiadas podrán recogerse en la sede de la asociación o bien serán devueltas por esta si junto con la foto se adjunta un sobre franqueado con la dirección a la que se deben enviar.",
+      "11 - EL HECHO DE PARTICIPAR IMPLICA LA ACEPTACIÓN DE TODAS ESTAS BASES."
+    ]
+  }
 }
