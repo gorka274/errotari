@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     if (file_put_contents($ruta_revistas, json_encode($revistas, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE))) {
         $mensaje_exito = "¡Revista creada correctamente!";
     } else {
-        $mensaje_error = "Error al guardar el archivo JSON de revistas.";
+        $mensaje_error = "Error al guardar la revista.";
     }
 }
 ?>
