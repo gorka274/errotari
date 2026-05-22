@@ -1,0 +1,835 @@
+[
+  {
+    "id": 1,
+    "numero": 1,
+    "anio": "2004",
+    "portada": "../assets/img/revista/portada1.jpg",
+    "precio": "7 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Actividades del 2003",
+          "Excursiones realizadas en el 2003",
+          "Exposición micológica. Relación de especies",
+          "Concurso fotográfico",
+          "Proyectos 2004"
+        ]
+      },
+      {
+        "titulo": "Informática",
+        "articulos": [
+          "Página web de Errotari",
+          "Enlaces micológicos de interés en Internet"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Hidropus trichoderma v. lobauensis (Giovanni Robich)",
+          "Hongos hipogeos... (Aurelio García Blanco)",
+          "Amanita friabilis... (Javier Fernández Vicente y Joserra Udagoitia)",
+          "Tricholoma luridum... (Javier Fernández Vicente y Joserra Udagoitia)",
+          "Pulvinula ovalispora... (Javier Fernández Vicente y Joserra Udagoitia)",
+          "Xerocomus ripariellus... (Javier Fernández Vicente y José Luis Pérez Butrón)",
+          "Helvella helvellula... (J. M. Ruiz)",
+          "Lyophyllum ochraceum... (Sabino Arauzo)",
+          "Tricholoma josserandii... (Plácido Iglesias)"
+        ]
+      },
+      {
+        "titulo": "Gastronomía (J. C. Pérez - Joseba Ortiz de Zárate - Javi Landa)",
+        "articulos": [
+          "Pastel de setas con salsa de senderuelas",
+          "Champiñones guisados",
+          "Albóndigas de rape con setas",
+          "Crepes de setas",
+          "Peras al vino con natillas y chocolate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "numero": 2,
+    "anio": "2005",
+    "portada": "../assets/img/revista/revista2.jpg",
+    "precio": "7 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Actividades del 2004 y proyectos del 2005",
+          "Excursiones realizadas en el 2004",
+          "IV Concurso de fotografía micológica",
+          "Exposición micológica. Relación de especies.",
+          "El rincón del micófago.",
+          "El rincón del joven aficionado."
+        ]
+      },
+      {
+        "titulo": "Informática",
+        "articulos": [
+          "¿Como usar los foros?"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Hongos del Calambrone, Panaeolus cinctulus (Bolton) Sacc. (Gabrielle Cacialli, Vicenzo Caroti, Riccardo Marziani y Massimo Tabone)",
+          "Onygena corvina Alb. & Schwein. (J. Plácido Iglesias)",
+          "Rhizopogon villosulus Zeller (J. Plácido Iglesias)",
+          "Hongos hipogeos II, contribución a su conocimiento y difusión. (Aurelio García Blanco)",
+          "Sowerbyella reguissi (Quel.) Moravec y Byssonectria terrestris (Alb. & Schwein.: Fr.) D. Pfister (Javier Fernández Vicente y Joserra Udagoitia)",
+          "Boletus dupainii, Boletus pulchrotinctus, Buchwaldoboletus lignicola, Xerocomus pelletieri y listado de Boletineae, Suillineae, Paxillineae, Hymenogasteraceae, Sclerodermatineae, Coniophorineae en el Parque Natural del Gorbeia (GPN) (Javier Fernández Vicente y Joserra Undagoitia)",
+          "Chalciporus hypochryseus (Sutara) Courtecuisse y Xerocomus truncatus Singer (J. M. Ruiz y Esteban Ruiz)",
+          "Clavaria straminea Cotton, nueva cita para la península ibérica (I. Olariaga, S. Arauzo, J. Fernández, P. Iglesias, J.R. Undagoitia.)",
+          "Craterellus cornucopioides (L.: Fr.) Pers. f. lutea f. nov., una curiosa variedad cromática de la Trompeta de los Muertos (Rafael Aramendi y Felipe Hidalgo)",
+          "Lactarius illyricus Piltaver, un taxón poco conocido en nuestro entorno (Roberto Fernández Sasia)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Pochas con rovellones (Joseba Ortiz de Zárate)",
+          "Galanpernas rellenas de ternera (J. Landa)",
+          "Habitas tiernas salteadas con jamón y hongos (J. Carlos Perez \"Kakalo\")",
+          "Codornices con salsa de rebozuelos (Joseba Ortiz de Zárate)",
+          "Pechugas rellenas de hongos en su salsa (J. Carlos Perez \"Kakalo\")"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "numero": 3,
+    "anio": "2006",
+    "portada": "../assets/img/revista/portada3.jpg",
+    "precio": "8 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Actividades del 2005 y proyectos del 2006.",
+          "V Concurso de fotografía micológica.",
+          "Exposición micológica 2005. Relación de especies.",
+          "El rincón del micófago.",
+          "El rincón del joven."
+        ]
+      },
+      {
+        "titulo": "GPS",
+        "articulos": [
+          "Sistema GPS y navegación."
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "MYKOS.O.S - Fe de erratas.",
+          "Russula adusta, Russula melzeri, Lactarius lilacinus, Lactarius glyciosmus y listado de Russulales en el Parque natural del Gorbea. (Javier Fernández Vicente y Joserra Undagoitia)",
+          "Chalciporus rubinus una rara boletacea encontrada en Bizkaia. (Javier Fernández Vicente y Joserra Undagoitia)",
+          "Geastrum floriforme. Contribución al catálogo micológico del País Vasco. (J. Plácido Iglesias)",
+          "Notas sobre el género Craterellus Pers. (Jordi Vila)",
+          "Gomphidius tyrrhenicus una especie mediterranea poco frecuente. (J. Vila, M.A. Pérez-de-Gregorio y G. Mir)",
+          "Psilocybe hispanica, un taxón novedoso en nuestro entorno. (R. Fernández Sasia)",
+          "Especies poco conocidas del género Hygrocybe (H. helobia, H. ortoniana y H. subpapillata) en el País Vasco. (S. Arauzo)",
+          "Hygrophorus fuscoalbus y Leccinum pulchrum. (José Manuel Ruiz)",
+          "Cystolepiota pulverulenta f. minima y Flammulaster limulatus, dos especies muy interesantes por su rareza. (A. García Blanco)",
+          "Contribución al conocimiento de Peziza lividula. (René Dougoud)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari",
+        "articulos": [
+          "Revuelto de perretxicos. (Joseba Ortiz de Zárate)",
+          "Endibias con angulas (Joseba Ortiz de Zárate)",
+          "Tartaletas rellenas de angulas (Joseba Ortiz de Zárate)",
+          "Nuevo pintxo de revuelto de setas (Edu)",
+          "Tostadas de hígado con hongos (J. Carlos Perez \"Kakalo\")",
+          "Rissoto de pardillas (Joseba Ortiz de Zárate)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "numero": 4,
+    "anio": "2007",
+    "portada": "../assets/img/revista/portada4.jpg",
+    "precio": "8 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2007.",
+          "VI Concurso de fotografía micológica.",
+          "Exposición micológica 2006. Relación de especies.",
+          "Propiedades de las setas.",
+          "Micorrizas.",
+          "El rincón del micófago."
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Cuatro especies poco frecuentes del orden boletales recolectadas en la isla de Mallorca. (Guillem Mir)",
+          "Inocybe erubescens Blytt. (Esteban Ruiz Pastor)",
+          "Mycena crocata v. vogesiana Quél. en Euskadi. (M.Á. Pérez-de-Gregorio)",
+          "Stromatinia rapulum y Stromatinia paridis. (René Dougoud)",
+          "Mycena saturejophila, una nueva especie asociada a Satureja montana. (Jordi Vila y F. Caballero)",
+          "Helvella corium, una especie muy rara de ambientes subalpinos, presente en la meseta castellana. (A. García Blanco y M.A. Rodríguez-Beneite)",
+          "Lyophyllum ozes, un taxón crítico a rehabilitar. (R. Fernández Sasia y Marco Contu)",
+          "Boudiera tracheia y Scleromitrula candolleana, dos ascomicetos poco comunes encontrados en el P. N. de Urkiola. (S. Arauzo, J. Fernández Vicente y P. Iglesias)",
+          "Aportación al catálogo de Macromicetos del P. N. del Gorbea y aledaños, Agaricales s.l. (Basidiomycota). (J. Fernández Vicente y J. Undagoitia)",
+          "La familia Entolomataceae en el Norte de la Península Ibérica. (I). (J. Fernández Vicente, J. Undagoitia, P. Iglesias y S. Arauzo)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Montadito de foie de canard con hongos (Boletus sp.).",
+          "Caviar de criadillas.",
+          "Ensalada templada de pasta con setas, gambas y jamón ibérico.",
+          "Supremas de pollo en tempura con salsa de hongos.",
+          "Pil-pil de oronjas (Amanita caresarea) en revuelto, con jamón serrano.",
+          "Sopicaldo de hongos y salsa de hongos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "numero": 5,
+    "anio": "2008",
+    "portada": "../assets/img/revista/portada5.jpg",
+    "precio": "8 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2008.",
+          "Exposición micológica 2007. Relación de especies.",
+          "VII Concurso de fotografía micológica.",
+          "El hayedo y los hongos que lo habitan.",
+          "El rincón del micófago."
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Cystoderma terrei v. nogalesii, interesante especie endémica de Las Islas Canarias. (J. Plácido Iglesias)",
+          "Squamanita paradoxa recolectada en el País Vasco. (S. Arauzo)",
+          "Dos nuevas formas blancas de Mycena recolectadas en Italia. (Giovanni Robich)",
+          "Cortinarius erithrynovelatus, un taxón a validar hallado en Navarra. (Patrick Reumaux & Roberto Fernández Sasia)",
+          "Otidea apophysata, en la península ibérica. (J.L. Pérez-Butrón & J. Fernández Vicente)",
+          "Brioscyphus atromarginatus, una especie parásita de Marchantia polymorpha. (René Dougoud)",
+          "Geoglossum montanum, una especie nórdica en las dunas herbosas de Cerdeña. (Marco Contu)",
+          "Cortinarius illibatus. (Esteban Ruiz)",
+          "Russulas nuevas o interesantes del País Vasco. (Carlos Monedero)",
+          "Aportaciones al conocimiento de los hongos de Cataluña (península ibérica). III. (J. Vila, F. Caballero, J. Rius & X. Llimona)",
+          "Pleurotus opuntiae, una especie poco conocida. (Guillem Mir, M. A. Pérez-de-Gregorio & J. L. Melis)",
+          "La familia Tricholomataceae y listado de algunos géneros de tricholomatales en el Parque Natural del Gorbea. II. (J. Fernández Vicente & J. Undagoitia)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Oronjas a la plancha.",
+          "Paté de hongos.",
+          "Rollito de hongos con gambas y jamón.",
+          "Tagliatelle con hongos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "numero": 6,
+    "anio": "2009",
+    "portada": "../assets/img/revista/portada6.jpg",
+    "precio": "10 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2009.",
+          "VIII Concurso de fotografía micológica.",
+          "El rincón del micófago."
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Coprinus calyptratus Peck. Aportaciones al conocimiento de la micoflora de la Comunidad Foral Navarra. (A. Ruiz Mateos)",
+          "Geastrum fornicatum. Un raro y llamativo Gasteromycete, muy poco conocido. (A. García Blanco & G. Martínez Fernández)",
+          "Cortinarius neocolus, un taxón a validar hallado en Araba. (P. Reumaux & R. Fernández Sasia)",
+          "Apuntes sobre un Hygrophorus Fr., común en las comunidades cistácolas mediterraneas. (M. A. Pérez-De-Gregorio, C. Roqué & N. Macau)",
+          "Marcelleina rickii una nueva especie para la flora fúngica de Montenegro. (B. Peric)",
+          "Dermoloma fuscobrunneum, especie de la sección dermoloma, novedad en Cerdeña. (M. Contu)",
+          "Hygroaster lacteus, una sorprendente y enigmática especie encontrada en el País Vasco. (S. Arauzo)",
+          "Lactarius cyanopus Basso, en Illes Balears. (G. Mir & J. Planas)",
+          "El \"misterio\" de las dos Campanella. (G. Consiglio & L. Setti)",
+          "El género Sarcoscypha en el norte de la península Ibérica. (C. Monedero García)",
+          "Peziza moseri, Peziza bovina, Peziza gerardii, Octospora roxheimii, Geopyxis carbonaria y Geopyxis majalis, seis ascomicetes primaverales recolectados en la sierra de Neila (Burgos). (N. Santamaría Rodríguez)",
+          "Aportaciones al conocimiento micológico de la isla de La Palma. (P. Iglesias, F. Hidalgo, J. Fernández Vicente & J. Undagoitia)",
+          "Adiciones al catálogo del Parque Natural del Gorbea y aledaños, y listado de ascomicetos (Ascomycota) III. (J. Fernández Vicente & J. Undagoitia)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Arroz con setas y verduras.",
+          "Ensalada templada de hongos con alcachofas y trigueros.",
+          "Mollejas de cordero con Morchellas.",
+          "Milhojas de solomillo y hongos con su salsa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "numero": 7,
+    "anio": "2010",
+    "portada": "../assets/img/revista/portada7.jpg",
+    "precio": "10 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2010.",
+          "IX Concurso de fotografía micológica.",
+          "El rincón del micófago.",
+          "Robledales y bosque mixtos. (Ander Areitioaurtena)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Aportaciones al conocimiento de la micoflora en la Comunidad de Navarra. Phaeomyces ibericus una especie de difícil ubicación taxonómica. (A. Ruiz Mateos)",
+          "Geastrum morganii, segunda cita para la Península ibérica y nueva para Asturias. (J.C. Zamora, A. Román & E. Rubio)",
+          "Aleuria exigua, récolté en Corse. (Nicolas Van Vooren)",
+          "Lepiota lepida, en Catalunya. (M. A. Pérez-De-Gregorio & N. Macau)",
+          "Sur deux espèces du genre Scutellinia, sous-genre Legalia, Scutellinia minor et S. mirabilis. (René Dougoud & Vincent Ruiz-Badanelli)",
+          "Volvariella nigrovolvacea var. dunensis, primera recolecta en el litoral de Bizkaia. (R. Fernández Sasia)",
+          "Tres especies del género Russula recolectadas en el País Vasco. (C. Monedero García)",
+          "Studi sul genere Laccaria IX. Nuovi dati su Laccaria vinaceorosea e segnalazione di una specie ancora non descritta osservata in Sardegna. (M. Contu)",
+          "Aportación al catálogo de macromicetos del Parque Natural del Gorbea y aledaños, Cantharellaceae, Clavulinaceae, Hydnaceae, Tulasnellaceae. (J. Fernández Vicente & J. Undagoitia)",
+          "Aportaciones al conocimiento micológico de la isla de La Palma (II) y una nueva especie de Tricholosporum. (J. Fernández Vicente, P. Iglesias, F. Hidalgo, M. Oyarzabal)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Angulas de monte con arroz.",
+          "Brochetas de raviolis rellenos de setas y marisco.",
+          "Capuchinas al pil pil.",
+          "Lengua de vaca guisada.",
+          "Setas de marzo con almejas.",
+          "Rabo de ternera al estilo de Burdeos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "numero": 8,
+    "anio": "2011",
+    "portada": "../assets/img/revista/portada8.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2011.",
+          "X Concurso de fotografía micológica.",
+          "El rincón del micófago.",
+          "Paseo por el pinar. Los pinos de la Península Ibérica (Ander Areitioaurtena)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Aportaciones al conocimiento de la micoflora en la Comunidad de Navarra. Coprinellus heterothrix, nueva cita peninsular. (A. Ruiz Mateos)",
+          "Octospora musci-muralis, une espèce nouvelle pour la flore mycologique du Montenegro. (Branislav Peric)",
+          "Algunos Phragmobasidiomycetes y Pucciniomycetes en el Parque Natural del Gorbea y aledaños. (Javier Fernández Vicente)",
+          "Interesantes entidades de la Italia central, 10ª contribución, descripción de algunas recolectas de Tulostoma cyclophorum. (Vincenzo Migliozzi)",
+          "Una nueva especie para la ciencia: Russula ombrophila. (Manu Gómez Arenaza & Carlos Monedero)",
+          "Una nueva forma albina del monte Sabini, Galerina perplexa f. nivescens. (Mariano Curti & Enzo Musumeci)",
+          "Aportaciones al conocimiento de las Pyronemataceae de Girona. (Carles Roqué & M.A. Pérez-de-Gregorio)",
+          "Russula integra v. phlyctidospora, un raro taxón encontrado en Quintanar de la Sierra (Burgos). (Joseba Matabuena Val & Nino Santamaría)",
+          "Contribución al conocimiento de la micobiota del Pirineo. I (F. Pancorbo & M.A. Ribes)",
+          "Eriopezia caesia, una especie que crece sobre madera de roble y sobre un subículo blanco. (René Dougoud)",
+          "Tres especies interesantes del género Alnicola, recogidas en Bizkaia. (Roberto Fernández Sasia & Pierre Arthur Moreau)",
+          "Estudios en el género Pseudobaeospora. (Sabino Arauzo)",
+          "Aportaciones al conocimiento micológico de la isla de La Palma (III). (P. Iglesias, J. Fernández Vicente & M. Oyarzabal)",
+          "Clave de los Cortinarius secc. Fulvi ss. l. de ambiente mediterraneo. (Rafael Mahiques, Josep Ballaré & J.A. Cadiñanos Aguirre)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Boquerones de monte.",
+          "Carrilleras de ternera.",
+          "Gratinado de setas silvestres.",
+          "Pintxo de marzuolus.",
+          "Revuelto de marzuolus.",
+          "Vieiras de la ría."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "numero": 9,
+    "anio": "2012",
+    "portada": "../assets/img/revista/portada9.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XI Concurso de fotografía micológica",
+          "El rincón del micófago"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Una especie poco conocida: Coprinopsis semitalis (A. Ruiz Mateos & R. Fernández Sasia)",
+          "Aportaciones al conocimiento de la micoflora en la comunidad de Navarra. Coprinellus callinus, presente en la península ibérica (A. Ruiz Mateos & S. García Murillo)",
+          "Algunos pirenomicetos raros o interesantes del norte de España (E. Rubio, J. Linde & A. Román)",
+          "Aportación al catálogo de macromicetos del parque natural del Gorbea y aledaños y listado de especies del género Hemimycena, Mycena, Panellus, Resinomycena, Roridomyces (Mycenaceae, Basidiomycota) (J. Fernández Vicente)",
+          "Una nueva especie del género Porpoloma descubierta en el País Vasco (S. Arauzo)",
+          "Melanospora brevirostris (A. Ayala, R. Fernández, A. Meléndez, L. Tabera & K. Ugartetxe)",
+          "Aproximación al inventario y algunas citas interesantes de hongos agaricoides de prados con Helianthemum nummularium y encinares de Uribe-Kosta (J.A. Cadiñanos & E. Fidalgo)",
+          "Entoloma sclerotiogenum primera especie del género Entoloma asociada a esclerocios (F. Caballero, M. Higelmo, S. Catalá & J. Vila)",
+          "Estudio comparative de dos Lepiotas de la sección Stenosporae (M.A. Pérez-de-Gregorio & N. Macau)",
+          "Aportaciones al conocimiento micológico de la Gomera (Islas Canarias) (J. Fernández Vicente, P. Iglesias & M. Oyarzabal)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Fritos de setas",
+          "Crema ligera de champiñones",
+          "Arroz con plateras y mollejas de ternera",
+          "Montadito de gambas con foie",
+          "Lomo de ciervo con salsa de trompetillas",
+          "Perdices estofadas con senderuelas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "numero": 10,
+    "anio": "2013",
+    "portada": "../assets/img/revista/portada10.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos para el 2013",
+          "XII Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)",
+          "Encinares cantábricos (Ander Areitioaurtena)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Microglossum cyanobasis. Un Microglossum nuevo recolectado en Oriñón (Cantabria) (P. Iglesias & S. Arauzo)",
+          "Aportaciones al conocimiento de la micoflora en la comunidad de Navarra. Coprinopsis xantholepis, una especie a diferenciar de Coprinopsis phaeospora (A. Ruiz Mateo)",
+          "Rhodocybe obtusatula (novedad en Francia) un taxón presente en los barrancos húmedos de la vertiente norpirenaica (G. Corriol)",
+          "Un nuevo Inocybe de los valles atlánticos del suroeste de Francia (G. Corriol & J. Guimberteau)",
+          "Estudio de dos Amanitas de la sección Amanitopsis (Roze) Konrad & Maublanc emend. Neville & Poumarat (M.A. Pérez-de-Gregorio & N. Macau)",
+          "Contribución al conocimiento del género Melanoleuca (R. Fernández Sasia, R. Fontenla & R. Para)",
+          "Correcciones al artículo Contribución al conocimiento de la micobiota del Pirineo I, publicado en Errotari 8 (2011) (J.F. Pancorbo & M.A. Ribes)",
+          "Aportación al catálogo de macromicetos del Parque Natural del Gorbea y aledaños, Agaricales. Hydnangiaceae, Lycoperdaceae, Nidulariaceae, Tulostomataceae, Geastraceae, Clavariadelphaceae, Gomphaceae, Phallaceae (Basidiomicota) (J. Fernández Vicente)",
+          "Notas sobre Entoloma vindobonense (J. Vila, F. Caballero, J. Fdez Vicente & N. Santamaría)",
+          "Aportaciones al conocimiento micológico de La Gomera (Islas Canarias) II (P. Iglesias, J. Fernández Vicente, M. Oyarzabal & Felipe Hidalgo)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Sopa del Pastor",
+          "Plateras a La Plancha con Alcachofas y Jamón",
+          "Beef Stroganoff",
+          "Tosta de Níscalos en Tempura. Con crema de Idiazabal y Lágrima de Pimiento choricero"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "numero": 11,
+    "anio": "2014",
+    "portada": "../assets/img/revista/portada11.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XIII Concurso de fotografía micológica",
+          "Los Líquenes (Ander Areitioaurtena)",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Aportaciones al conocimiento de la micoflora en la Comunidad de Navarra. Coprinopsis fusispora, primera cita peninsular (A. Ruiz Mateos)",
+          "Psathyrella litoralis sp. nov., una especie halófila de las marismas retrodunares del sur de Córcega (Gilles Corriol)",
+          "Tres Mycenas interesantes y poco citadas en la península ibérica, halladas en Cataluña (Miquel Pérez-de-Gregorio)",
+          "Aportación al catálogo de macromicetos del Parque Natural del Gorbea y aledaños y listado de especies de la familia Physalacriaceae, Marasmiaceae y Niaceae (Basidiomicota) (Javier Fernández Vicente)",
+          "Aportaciones al catálogo micológico de la isla de Madeira (Portugal) (P. Iglesias, J. Fernández Vicente y M. Oyarzabal)",
+          "La familia Geoglossaceae ss. str. en la península ibérica y la Macaronesia (Sabino Arauzo y Plácido Iglesias)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Caracoles San Prudencio",
+          "Conserva de setas",
+          "Empanada de setas",
+          "Potxas con Hongos y Trompetas",
+          "Sordas en salsa con trompetillas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "numero": 12,
+    "anio": "2015",
+    "portada": "../assets/img/revista/portada12.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XIV Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Aportaciones al conocimiento de la micoflora en la Comunidad de Navarra. Conocybe ingridae y Conocybe ochrostriata, descripción y primeras localizaciones en la Península (A. Ruiz Mateos)",
+          "Hirsutella saussurei, forma imperfecta de Ophiocordyceps sphecocephala presente en la Península Ibérica (Óscar Requejo Martínez)",
+          "Una lepiota sobre olivo silvestre en el piso termomediterráneo corso: Leucoagaricus oleicola sp. nov. (subsección Rubescentes) (Gilles Corriol)",
+          "Algunos ascomycetos interesantes del nornordeste de la Península Ibérica (E. Rubio, F.J. Balda & M. Tapia)",
+          "Contribución al conocimiento del género Sarea Fr. (Ascomycota, Incertae sedis) en la Península Ibérica (Isaac Garrido-Benavent)",
+          "Introducción al estudio del género Coprinus ss. str. en España (Antonio Ruiz Mateo & Roberto Fernández Sasia)",
+          "Aportación al catálogo de macromicetos de los Parques Naturales del Gorbea-Urkiola y zona Norte de la Península Ibérica, Agaricales. Psathyrellaceae (Basidiomycota) (Plácido Iglesias & Javier Fernández Vicente)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Hongos confitados y su aprovechamiento completo",
+          "Pencas rellenas de Níscalos, jamón ibérico y queso azul sobre Crema de Níscalos",
+          "Pie azul en su salsa",
+          "Pil pil de kokotxas con hongos u otros",
+          "Revuelto de Plateras con gambas y espinacas",
+          "Salsa fría de setas. Hongos, perretxicos, champiñones, etc..."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "numero": 13,
+    "anio": "2016",
+    "portada": "../assets/img/revista/portada13.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XV Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Aportaciones al conocimiento del género Coniophora DC. en Catalunya (M.A. Pérez-De-Gregorio & J. Carbó)",
+          "Aportaciones al conocimiento de la micoflora de la Comunidad de Navarra. Tres especies muy raras de Coprinopsis sección Narcoticae (A. Ruiz Mateo & D. Cerdán Ruiz)",
+          "Algunos Entoloma inéditos del subgénero Leptonia (Gilles Corriol)",
+          "Un raro hongo tropical detectado en los cañaverales asturianos (E. Rubio & M. González)",
+          "Algunos ascomycetes interesantes del nornordeste de la Península Ibérica. II (E. Rubio, F.J. Balda & M. Tapia)",
+          "Nuevos datos sobre la presencia de Trichophaea flavobrunnea (Pezizales, Pyronemataceae) en España (E. Rubio & R. Tena)",
+          "La familia Tricholomataceae y listado de algunos géneros de tricholomatales en el P.N. del Gorbea y aledaños, (Basidiomycota) III (J. Fernández Vicente)",
+          "Aportaciones al catálogo micológico de la isla de Madeira (Portugal) II (J. Fdez Vicente, P. Iglesias & M. Oyarzabal)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Arroz con Gurumelos (Amanita ponderosa) y con almejas y gambas de Huelva",
+          "Fideuá con setas Cantharellus lutescens (trompeta amarilla)",
+          "Guisado de níscalos (Lactarius deliciosus) con patatitas nuevas y jamón",
+          "Potxas con codornices y hongos (Boletus edulis u otros Boletus)",
+          "Pulpo a la parrilla sobre pil pil de seta de marzo (Hygrophorus marzuolus)",
+          "Revuelto de setas \"Errotari\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "numero": 14,
+    "anio": "2017",
+    "portada": "../assets/img/revista/portada14.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XVI Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Efecto del jabalí (Sus scrofa) sobre ecosistemas insulares: el caso concreto de los hongos en la isla de Cortegada (Saúl De la Peña Lastra)",
+          "Aportaciones al conocimiento del género Gliophorus Herink (Eduardo Fidalgo)",
+          "Calocybe hymenoderma sp. nov., Calocybella juncicola comb. nov. et les contours taxinomiques de la section Rugosomyces (Gilles Corriol, P.A. Moreau & Jean-Michel Bellanger)",
+          "Cinco especies de Xylaria recolectadas en Galicia (José Manuel Castro Marcote & José María Costa Lago)",
+          "Un raro hongo bispórico y eucaliptícola, Cortinarius bisporiger, detectado en Asturias (E. Rubio, P. Zapico & M. Laso)",
+          "Parasola lilatincta y Coprinopsis krieglsteineri, primeras localizaciones en la Península Ibérica (A. Ruiz Mateo, L. Sánchez & C. Magrasó)",
+          "Gyromitra martinii Donad. et Ast. Una rara especie en la comunidad del País Vasco (Joserra Undagoitia & J. Fernández Vicente)",
+          "Algunos ascomicetes raros o poco comunes en la comunidad del País Vasco, Cantabria y Castilla-León (J. Fdez Vicente & J.L. Pérez Butrón)",
+          "Aportaciones al conocimiento de la micoflora en la comunidad de Navarra: Conocybe nigrescens y Pholiotina septentrionalis, dos especies muy raras de Bolbitiaceae (A. Ruiz Mateo)",
+          "Adiciones al catálogo micológico del Parque Natural del Gorbea y aledaños, (Tricholomataceae, Lyophyllaceae, Agaricaceae, Incertae sedis, Hygrophoraceae, Basidiomycota) (J. Fdez Vicente)",
+          "Clavaria greletoides, nueva especie de color oscuro descubierta en el País Vasco (S. Arauzo & P. Iglesias)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (Joseba Ortiz de Zárate)",
+        "articulos": [
+          "Carpaccio de Oronjas Amanita caesarea (Kuleto, Gorringo)",
+          "Revuelto de perretxikos Calocybe gambosa al estilo de \"Las Merindades\"",
+          "Carrilleras de cerdo ibérico en salsa de hongos (Boletus edulis)",
+          "Crema de coliflor con setas y gambas o langostinos",
+          "Patatas a la importancia con salsa de trompetas amarillas (Cantharellus lutescens)",
+          "Verdinas con hongos (Boletus edulis)",
+          "Entrecula de ternera al horno con setas: rebozuelos, portobello u otras"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "numero": 15,
+    "anio": "2018",
+    "portada": "../assets/img/revista/portada15.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XVII Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Mycena tubarioides, una diminuta y hermosa especie sonrosada de los humedales somedanos (E. Rubio, E. Hernández, S. Serrano y F.J. Mateos)",
+          "Psatyhrella seymourensis A.H. Smith, en la Península Ibérica (M. Á. Pérez-de-Gregorio y S. Gibert)",
+          "El género Hypoxylon: descripción de seis taxones nuevos para Galicia (J.M. Castro Marcote, R. Montes Papón, J.M. Costa Lago)",
+          "Adiciones al catálogo micológico del Parque Natural del Gorbeia y aledaños, y listado de ascomicetos (Ascomycota) (IV) (J. Fernández Vicente)",
+          "Algunos ascomicetes raros o poco comunes en la comunidad del País Vasco, Cantabria y Castilla-León. (Ascomycota). II (J. Fernández Vicente y J.L. Pérez-Butrón)",
+          "Aportaciones al catálogo micológico de la isla de Gran Canaria (Macaronesia-Islas Canarias) (M. Oyarzabal, P. Iglesias y J. Fernández Vicente)",
+          "Estudios en el género Hodophilus (Clavariaceae) (S. Arauzo y P. Iglesias)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari (P. Iglesias y E. Ruiz)",
+        "articulos": [
+          "Conejo guisado con Kuehneromyces mutabilis",
+          "Croquetas de Senderuela (Marasmius oreades)",
+          "Espaguetis con kuletros (Amanita caesarea)",
+          "Pasta con \"Lepistoides\"",
+          "Rabas de Pleurotus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "numero": 16,
+    "anio": "2019",
+    "portada": "../assets/img/revista/portada16.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XVIII Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Cystolepiota fumosifolia, primera cita para la Península Ibérica (G. Muñoz, L. Sánchez y S. Gibert)",
+          "La turbera del lago de Lourdes, un espacio de gran interés micológico (G. Corriol)",
+          "Hongos del Puerto de Leitariegos (Asturias). Monilinia megalospora (Sclerotiniaceae, Helotiales) (E. Rubio y J. Linde)",
+          "Hongos parásitos de otros hongos (S. De la Peña-Lastra)",
+          "Depredadores de setas (S. De la Peña-Lastra)",
+          "Dos infrecuentes Ascomicetos del pinar de Puebla de Lillo (León, España) (E. Rubio, E. Hernández Mata, J. Mateos Holgado y J.A. Sánchez Rodríguez)",
+          "Annulohypoxylon s.l. en Galicia. Descripción de cinco especies (J.M.C. Marcote y J.M. Costa Lago)",
+          "Marasmiellus brevisporus (Maire) Contu, en la Península Ibérica (M. Perez-De-Gregorio y E. López Barchino)",
+          "Aportaciones al catálogo micológico de la Comunidad autónoma del País Vasco (R. Ibarretxe Iragorri y J. Arnedo Dolado)",
+          "Aportaciones al conocimiento de la micoflora en la Comunidad de Navarra. Dos especies interesantes del género Conocybe (A. Ruiz Mateo)",
+          "Cyanosporus luteocaesius (A. David) B.K. Cui, L.L. Shen & Y.C. Dai, una rara especie mediterránea encontrada en las Illes Balears (España) (J.C. Salom, J.L. Siquier y J. Planas)",
+          "Ciborinia camelliae Kohn, un hongo poco común en el noroeste peninsular (Ascomycota) (M. Saavedra y J. Fernández Vicente)",
+          "Contribución al conocimiento del género Entoloma. Parte sexta (G. Consiglio)",
+          "Algunos ascomicetes raros o poco comunes en la comunidad del País Vaco, Cantabria y Castilla-León. (Ascomycota) III (J. Fernández Vicente)",
+          "Aportación al catálogo de macromicetos del norte peninsular y Parque Natural del Gorbea. Agaricales. Hymenogastraceae, Strophariaceae (Basidiomycota) (J. Fernández Vicente)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari",
+        "articulos": [
+          "Barketas de calabacín rellenas de setas",
+          "Calamares con lengua de vaca",
+          "Menestra de rabo",
+          "Rabo de ternera con senderuelas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "numero": 17,
+    "anio": "2020",
+    "portada": "../assets/img/revista/portada17.jpg",
+    "precio": "15 €",
+    "secciones": [
+      {
+        "titulo": "Presentación",
+        "articulos": []
+      },
+      {
+        "titulo": "Rincón del socio",
+        "articulos": [
+          "Proyectos",
+          "XIX Concurso de fotografía micológica",
+          "El rincón del micófago (Esteban Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Micología - Colaboraciones",
+        "articulos": [
+          "Descripción de Inocybe krieglsteineri, recolectado en Oroso (A Coruña) (J.M. Costa Lago)",
+          "Mycena fragillima A.H. Smith, en la Península Ibérica (M. Pérez-De-Gregorio, G. Muñoz y J.A. Muñoz)",
+          "Tres interesantes ascomycetes localizados en Cataluña: Pycnopeziza sejournei, Heyderia cucullata y Encoeliopsis rhododendri (L. Sánchez)",
+          "Aportaciones al catálogo micológico del País Vasco y zonas limítrofes (Ascomycota) (R. Ibarretxe, J. Fernández Vicente y J. Arnedo)",
+          "Pulvinula orichalcea (Pezizales, Ascomycota), un hongo tropical descubierto en Galicia (E. Rubio, S. Corral y J.M. Costa)",
+          "Aportación al catálogo de macromicetos del Norte peninsular y Parque Natural del Gorbea, Agaricales, Strophariaceae, Cortinariaceae (Basidiomycota) (J. Fernández Vicente)",
+          "Descripción de cinco especies del género Nemania recolectadas en el noroeste de la Península Ibérica (J.M.C. Marcote y J.M. Costa Lago)",
+          "Dos especies nuevas: Mycena confinationis y Mycena juniperifolia, junto a otras aportaciones al catálogo micológico del País Vasco (Mycenaceae, Basidiomycota) (R. Ibarretxe, J. Fernández Vicente y J. Arnedo)",
+          "Thecoteus pallens (Ascobolaceae, Pezizalex) un hongo escasamente citado (E. Rubio y P. Zapico)",
+          "Agaricus pilosporus Peck, especie nueva para Canarias y corrección al artículo publicado en Errotari nº15 (2018) Aportaciones al catálogo micológico de la isla de Gran Canaria (Macaronesia - Islas Canarias) (P. Iglesias, J. Fernández Vicente y M. Oyarzabal)",
+          "Coprinopsis udicola Örstadius, A. Melzer & E. Larss, nuevas citas para Bélgica y Canarias, variabilidad de la especie (P. Iglesias, D. Deschuyteneer y P. Voto)",
+          "Una nueva especie de Rhodophana para el territory alsaciano: Rhodophana griseobrunnea (E. Musumeci)",
+          "El género Morchella en las Illes Balears (España) I: Morchella disparilis Loizides & P.A. Moreau (J.C. Salom, J.M. Bellanger, J. Planas y J.L. Siquier)",
+          "Aportación al conocimiento micológico de la isla de La Palma, IV (J. Fernández Vicente, P. Iglesias, M. Oyarzabal y E. Ruiz)"
+        ]
+      },
+      {
+        "titulo": "Los fogones de Errotari",
+        "articulos": [
+          "Liebre con gurumelos",
+          "Oronjas con pasta y verduras (gorringoak)",
+          "Perdices estofadas"
+        ]
+      },
+      {
+        "titulo": "Indice de especies",
+        "articulos": [
+          "Indice de especies citadas en la revista Errotari desde el nº 1 hasta el nº 16 ambos inclusive"
+        ]
+      }
+    ]
+  }
+]

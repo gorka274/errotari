@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Estilos para el Catálogo de Revistas - Errotari
+   ========================================================================== */
+
+.catalogo-main {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.catalogo-main h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+/* Cuadrícula Inteligente (Se adapta sola al tamaño de pantalla) */
+.grid-revistas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px 30px; /* Espacio entre tarjetas */
+    justify-content: center;
+}
+
+/* Tarjeta Individual de cada Revista */
+.tarjeta-revista {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Efecto al pasar el ratón por encima de la tarjeta */
+.tarjeta-revista:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la Portada en Miniatura */
+.portada-miniatura {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    aspect-ratio: 283 / 400; /* Mantiene la proporción original de tus portadas */
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.tarjeta-revista:hover .portada-miniatura {
+    transform: scale(1.03); /* Ligero zoom a la portada al hacer hover */
+}
+
+/* Textos de la tarjeta */
+.tarjeta-revista h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0 5px 0;
+    font-weight: 600;
+}
+
+.tarjeta-revista p {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* Botón de "Ver sumario" */
+.btn-ver {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #2e6f40; /* Un verde micológico/bosque elegante */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: auto; /* Empuja el botón al fondo si los textos varían de tamaño */
+    transition: background-color 0.2s ease;
+}
+
+.btn-ver:hover {
+    background-color: #21502e; /* Verde más oscuro al pasar el cursor */
+}
