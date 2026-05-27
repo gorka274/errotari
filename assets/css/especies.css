@@ -1,0 +1,240 @@
+/* ==========================================================================
+   Estilos para el Índice de Especies - Errotari
+   ========================================================================== */
+
+.especies-main {
+    padding: 60px 20px;
+    background-color: #f4f7f5;
+    /* Un gris con un ligero toque verdoso, muy natural */
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.especies-main h1 {
+    font-size: 2.2rem;
+    color: #1e3f20;
+    /* Verde bosque oscuro */
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Contenedor responsivo para que la tabla no rompa en pantallas pequeñas */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+
+/* Estilos generales de la Tabla */
+.tabla-especies {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 1rem;
+    color: #333333;
+}
+
+/* Cabecera de la tabla */
+.tabla-especies thead tr {
+    background-color: #2e6f40;
+    /* El verde corporativo micológico */
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.tabla-especies th,
+.tabla-especies td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Filas alternas (Zebra Striping) para facilitar la lectura */
+.tabla-especies tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Efecto Hover al pasar el ratón por encima de una fila */
+.tabla-especies tbody tr:hover {
+    background-color: #edf7ed;
+    /* Un verde muy sutil */
+    transition: background-color 0.2s ease;
+}
+
+/* Estilos para el nombre científico (cursiva por defecto en el HTML) */
+.tabla-especies td em {
+    font-weight: 600;
+    color: #2c3e50;
+    font-style: italic;
+}
+
+/* Estilos de los Enlaces a la ficha de la seta */
+.tabla-especies td a {
+    color: #2e6f40;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+}
+
+/* Animación de la línea inferior del enlace al hacer hover */
+.tabla-especies td a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #21502e;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.tabla-especies td a:hover {
+    color: #21502e;
+}
+
+.tabla-especies td a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Ajustes para pantallas móviles */
+@media (max-width: 600px) {
+    .especies-main {
+        padding: 30px 10px;
+    }
+
+    .especies-main h1 {
+        font-size: 1.6rem;
+    }
+
+    .tabla-especies th,
+    .tabla-especies td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+/* --- ESTILOS PARA NOMBRES CIENTÍFICOS --- */
+
+.stats-box {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.alfabeto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.letra-index {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #e2e8f0;
+    color: #2c3e50;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.letra-index:hover {
+    background-color: #2e6f40;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.bloque-letra {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    margin-bottom: 30px;
+}
+
+.titulo-letra {
+    font-size: 2rem;
+    color: #2e6f40;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.item-unico,
+.grupo-genero {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.nombre-genero {
+    font-size: 1.2rem;
+    color: #1e3f20;
+    margin-bottom: 5px;
+}
+
+.lista-subespecies {
+    list-style-type: none;
+    padding-left: 20px;
+    border-left: 2px solid #e2e8f0;
+}
+
+.lista-subespecies li {
+    margin-bottom: 8px;
+}
+
+.lista-subespecies li a,
+.item-unico a {
+    color: #2e6f40;
+    text-decoration: none;
+}
+
+.lista-subespecies li a:hover,
+.item-unico a:hover {
+    text-decoration: underline;
+}
+
+.asterisco {
+    color: #d35400;
+    /* Naranja para destacar las locales */
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn-arriba {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.btn-arriba:hover {
+    color: #2e6f40;
+}
