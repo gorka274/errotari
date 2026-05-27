@@ -243,8 +243,118 @@ ul.submenu.nested-submenu {
     color: #1c1c1c;
 }
 
+/* --- Estilos del Botón Hamburguesa --- */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #1c1c1c;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* --- Overlay del Menú Móvil --- */
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998; /* Debajo del menú lateral pero encima del contenido */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.menu-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
 /* --- Adaptación para móviles (Responsive) --- */
 @media (max-width: 768px) {
+    /* Header Responsive */
+    .menu-toggle {
+        display: flex;
+        position: relative;
+        z-index: 1000; /* Por encima del panel lateral para poder cerrarlo */
+    }
+
+    .main-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -320px; /* Oculto fuera de la pantalla por la derecha */
+        width: 280px;
+        height: 100vh;
+        background-color: #ffffff;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        z-index: 999;
+        padding: 80px 20px 30px 20px; /* Espacio arriba para el icono de la hamburguesa */
+        transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow-y: auto;
+    }
+
+    .main-nav.active {
+        right: 0; /* Aparece en pantalla */
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    
+    .main-nav ul li {
+        width: 100%;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 15px 5px;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 16px;
+    }
+
+    ul.submenu, ul.submenu.nested-submenu {
+        position: static;
+        display: none;
+        box-shadow: none;
+        padding-left: 15px; /* Sangría para submenús */
+        margin: 0;
+        min-width: auto;
+    }
+
+    ul.submenu li a {
+        padding: 12px 5px;
+        font-size: 15px;
+        border-bottom: 1px dashed #f0f0f0;
+    }
+
+    li.has-submenu:hover > ul.submenu {
+        display: block;
+    }
+
+    /* Footer Responsive */
     .footer-container {
         flex-direction: column;
         text-align: center;

@@ -18,6 +18,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
 </head>
 
 <body>
+    <div class="menu-overlay" id="menu-overlay"></div>
     <header class="main-header">
         <div class="header-container">
             <div class="logo">
@@ -26,7 +27,13 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
                 </a>
             </div>
 
-            <nav class="main-nav">
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="main-nav" id="nav-menu">
                 <ul>
                     <li><a href="<?php echo BASE_URL; ?>/index.php" class="active">Home</a></li>
 
@@ -79,3 +86,27 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
             </nav>
         </div>
     </header>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            var navMenu = document.getElementById('nav-menu');
+            var overlay = document.getElementById('menu-overlay');
+            
+            if (mobileMenu && navMenu) {
+                mobileMenu.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    this.classList.toggle('open');
+                    if (overlay) overlay.classList.toggle('active');
+                });
+            }
+            
+            if (overlay) {
+                overlay.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    if (mobileMenu) mobileMenu.classList.remove('open');
+                    this.classList.remove('active');
+                });
+            }
+        });
+    </script>
