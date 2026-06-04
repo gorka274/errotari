@@ -27,19 +27,15 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
                 </a>
             </div>
 
-            <div class="menu-toggle" id="mobile-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
 
             <nav class="main-nav" id="nav-menu">
                 <ul>
                     <li><a href="<?php echo BASE_URL; ?>/index.php" class="active">Home</a></li>
 
                     <li class="has-submenu">
-                        <a href="<?php echo BASE_URL; ?>/blog/principal.php">Blog</a>
+                        <a href="javascript:void(0);">Blog</a>
                         <ul class="submenu">
+                            <li><a href="<?php echo BASE_URL; ?>/blog/principal.php">Noticias</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/blog/programaAnual.php">Programa Anual</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/blog/programaFiestas.php">Programa Fiestas</a></li>
 
@@ -84,6 +80,19 @@ if ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '127.0.
                     <li><a href="<?php echo BASE_URL; ?>/contacto.php">Contacto</a></li>
                 </ul>
             </nav>
+
+            <div class="header-right">
+                <div class="lang-switch header-lang">
+                    <button class="lang-btn active">ES</button>
+                    <button class="lang-btn">EU</button>
+                </div>
+                
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
     </header>
 

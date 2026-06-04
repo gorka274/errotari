@@ -35,6 +35,18 @@ body {
     /* Centra los elementos verticalmente */
 }
 
+/* --- Elementos de la derecha del Header --- */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-lang .lang-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
 /* --- Estilos del Logo --- */
 .logo img {
     height: 45px;
